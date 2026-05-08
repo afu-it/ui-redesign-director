@@ -1,18 +1,30 @@
 # ui-redesign-director
 
-A Codex skill that redesigns existing UI into polished, modern, production-ready visuals.
+> Redesign existing UI into polished, modern, production-ready visuals.
 
-Supports: SaaS dashboards, mobile app screens, widgets, progress cards, onboarding flows, settings pages, and any product component.
+[![works with](https://img.shields.io/badge/works%20with-Codex%20%7C%20Claude%20%7C%20Cursor%20%7C%20Windsurf-blue?style=flat-square)](#)
+[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](#)
+
+---
 
 ## Install
 
 ```bash
-npx ui-redesign-director
+# Install into your current project
+npx skills add afu-it/ui-redesign-director
+
+# Install globally (all projects)
+npx skills add afu-it/ui-redesign-director -g
+
+# Preview before installing
+npx skills add afu-it/ui-redesign-director --list
 ```
 
-This clones the skill into `~/.codex/skills/ui-redesign-director/` and makes it available to your Codex agent.
+Works with **Codex, Claude Code, Cursor, Windsurf**, and other agents.
 
-## What it does
+---
+
+## What It Does
 
 Given a screenshot or description of an existing UI, this skill:
 
@@ -21,7 +33,7 @@ Given a screenshot or description of an existing UI, this skill:
 - Generates a polished redesign preserving the original meaning
 - Verifies the output is realistic and production-ready
 
-## Redesign modes
+## Redesign Modes
 
 | Mode | Description |
 |------|-------------|
@@ -29,13 +41,18 @@ Given a screenshot or description of an existing UI, this skill:
 | **B** | Redesign + rationale — explain what changed and why |
 | **C** | Multiple directions — offer 2–3 style variants |
 
-## Default style
+## Default Style
 
 - Premium SaaS aesthetic
 - Minimal, light mode
 - Clean typography with strong hierarchy
 - Soft depth and restrained accent color
 
-## Docs
+## Use Cases
 
-https://github.com/afu-it/ui-redesign-director
+- SaaS dashboards
+- Mobile app screens
+- Widgets and progress cards
+- Onboarding flows
+- Settings pages
+- Any product component that needs a visual upgrade
